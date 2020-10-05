@@ -1,0 +1,10 @@
+## Deep learning with python P173（深度学习图灵书上例程）
+# download dataset of climate for predict with 
+cd ~ /Download
+mkdir jena_climate
+cd jena_climate
+wget https://s3.amazonaws.com/keras-datasets/jena_climate_2009_2016.csv.zip
+unzip jena_climate_2009_2016.csv.zip
+# Basic infromation of climate dataset 
+import os 
+data
